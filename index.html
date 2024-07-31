@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conversor de Moedas</title>
+        <link rel="stylesheet" href="estilos/style.css">
+    </head>
+
+    <body>
+
+        <main>
+            
+            <section class="containerForm">
+                
+                <h1>
+                    Conversor de Moedas
+                </h1>
+
+
+                <form id="formulario" action="form.php" method="post" autocomplete="off">
+
+                    <div class="campoForm" id="campoForm">
+                        <label for="valor">
+                            <h2>Valor:</h2>
+                        </label>
+                        <input type="number" name="valor" id="valor" placeholder="DIgite um Valor" required>
+                    </div>
+
+                    <div class="campoForm">
+                        <label for="moeda1">
+                            <h2>Converter de:</h2>
+                        </label>
+
+                        <select id="moeda1" name="moeda1">
+                            <option value="VEF">VEF - Bolívar Venezuelano</option>
+                            <option value="USD">USD - Dollar Americano</option>
+                            <option value="CAD">CAD - Dollar Canadense</option>
+                            <option value="EUR">EUR - Euro</option>
+                            <option value="CHF">CHF - Franco Suiço</option>
+                            <option value="GBP">GBP - Libra Esterlina Britânica</option>
+                            <option value="ARS">ARS - Peso Argentino</option>
+                            <option value="CLP">CLP - Peso Chileno</option>
+                            <option value="COP">COP - Peso Colombiano</option>
+                            <option value="MXN">MXN - Peso Mexicano</option>
+                            <option value="UYU">UYU - Peso Uruguaio</option>
+                            <option value="BRL">BRL - Real Brasileiro</option>
+                            <option value="RUB">RUB - Rublo Russo</option>
+                            <option value="INR">INR - Rupia Indiana</option>
+                            <option value="KRW">KRW - Won Sul Koreano</option>
+                            <option value="YPY">YPY - Yen Japonês</option>
+                        </select>
+
+                    </div>
+
+                    <div class="campoForm">
+                        <label for="moeda2">
+                            <h2>Para:</h2>
+                        </label>
+
+                        <select id="moeda2" name="moeda2">
+                            <option value="VEF">VEF - Bolívar Venezuelano</option>
+                            <option value="USD">USD - Dollar Americano</option>
+                            <option value="CAD">CAD - Dollar Canadense</option>
+                            <option value="EUR">EUR - Euro</option>
+                            <option value="CHF">CHF - Franco Suiço</option>
+                            <option value="GBP">GBP - Libra Esterlina Britânica</option>
+                            <option value="ARS">ARS - Peso Argentino</option>
+                            <option value="CLP">CLP - Peso Chileno</option>
+                            <option value="COP">COP - Peso Colombiano</option>
+                            <option value="MXN">MXN - Peso Mexicano</option>
+                            <option value="UYU">UYU - Peso Uruguaio</option>
+                            <option value="BRL">BRL - Real Brasileiro</option>
+                            <option value="RUB">RUB - Rublo Russo</option>
+                            <option value="INR">INR - Rupia Indiana</option>
+                            <option value="KRW">KRW - Won Sul Koreano</option>
+                            <option value="YPY">YPY - Yen Japonês</option>
+                        </select>
+
+                    </div>
+                    
+                    <div class="campoformBotao">
+                        
+                        <input type="submit" id="botaoForm" value="Converter">
+
+                    </div>
+                    
+                    <div class="campoForm">
+                        <h2>Resultado da Conversão</h2>
+
+                        <div class="container-resultado">
+                            <output id="resultado">
+                                0
+                            </output>
+                        </div>
+                    </div>
+
+                </form>
+
+            </section>
+
+        </main>
+
+        <script type="module" src="scripts/script.js" defer></script>
+    </body>
+
+</html>
