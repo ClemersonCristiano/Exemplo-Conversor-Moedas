@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+:root{
+    --cor1: #161616;
+    --cor2: #0a0f16;
+    --cor3: #ffffff;
+}
+
+body{
+    width: 100vw;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor2);
+}
+
+main > .containerForm{
+    width: 320px;
+    padding: 10px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+main > .containerForm > h1{
+    font-size: 31px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 0px 1px black;
+}
+
+main > .containerForm > #formulario > .campoForm{
+    width: 300px;
+    height: 75px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+main > .containerForm > #formulario > .campoForm h2{
+    font-size: 25px;
+    text-shadow: 2px 0px 1px black;
+}
+
+main > .containerForm > #formulario > .campoForm > .container-resultado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    background-color: var(--cor3);
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+main > .containerForm > #formulario > .campoForm > .container-resultado > #resultado{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+main > .containerForm > #formulario > .campoForm #valor,
+main > .containerForm > #formulario > .campoForm > select {
+    width: 90%;
+    height: 30px;
+    background-color: var(--cor3);
+    color: black;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding-left: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+main > .containerForm > #formulario > .campoForm > select > option{
+    background-color: #161616;
+    color: white;
+    font-weight: bold;
+}
+
+main > .containerForm > #formulario > .campoformBotao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+main > .containerForm > #formulario > .campoformBotao #botaoForm{
+    display: block;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0px 0px 3px var(--cor1);
+}
+
+main > .containerForm > #formulario > .campoformBotao #botaoForm:hover{
+    background-color: var(--cor1);
+    border: 3px solid white;
+    box-shadow: none;
+    text-shadow: 2px 0px 1px black;
+    cursor: pointer;
+}
