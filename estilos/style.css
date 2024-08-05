@@ -19,15 +19,16 @@ body{
 }
 
 main{
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100%;
     background-color: var(--cor2);
 }
 
-main > h1{
+main > .containerForm >  h1{
     padding: 10px;
     text-align: center;
     text-shadow: 2px 0px 1px black;
@@ -40,7 +41,8 @@ main > .containerForm{
     box-shadow: 0px 0px 10px black;
 }
 
-main > .containerForm > #formulario > .campoForm{
+main > .containerForm > #formulario > .campoForm,
+main > .containerForm > #formulario > .converter > .campoForm{
     text-align: center;
     margin: 10px auto;
     padding: 10px;
@@ -49,12 +51,12 @@ main > .containerForm > #formulario > .campoForm{
     box-shadow: 0px 0px 10px black;
 }
 
-main > .containerForm > #formulario > .campoForm h2{
+main > .containerForm > #formulario > .converter > .campoForm h2{
     text-shadow: 2px 0px 1px black;
 }
 
 main > .containerForm > #formulario > .campoForm #valor,
-main > .containerForm > #formulario > .campoForm > select {
+main > .containerForm > #formulario > .converter > .campoForm > select {
     background-color: var(--cor3);
     color: black;
     border-radius: 10px;
@@ -79,11 +81,11 @@ main > .containerForm > #formulario > .campoForm > .container-resultado > #resul
 }
 
 
-main > .containerForm > #formulario > .campoForm > select:hover{
+main > .containerForm > #formulario > .converter > .campoForm > select:hover{
     cursor: pointer;
 }
 
-main > .containerForm > #formulario > .campoForm > select > option{
+main > .containerForm > #formulario > .converter > .campoForm > select > option{
     background-color: #161616;
     color: white;
     font-weight: bold;
@@ -115,7 +117,6 @@ main > .containerForm > #formulario > .campoformBotao #botaoForm:hover{
 
 footer{
     width: 100%;
-    height: 30px;
     background-color: black;
     text-align: center;
     padding: 10px 0px;
@@ -123,7 +124,6 @@ footer{
 }
 
 footer > p{
-    text-align: center;
     padding: 5px;
 }
 

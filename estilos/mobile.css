@@ -12,29 +12,31 @@
         padding: 30px 0px;
     }
     
-    main > h1{
-        font-size: 31px;
+    main > .containerForm > h1{
+        font-size: 22px;
     }
 
     main > .containerForm{
         width: 80%;
     }
     
-    main > .containerForm > #formulario > .campoForm{
-        width: 90%;
-        margin-top: 20px;
+    main > .containerForm > #formulario > .campoForm,
+    main > .containerForm > #formulario > .converter > .campoForm{
+        width: 80%;
+        margin: 5px auto;
     }
     
-    main > .containerForm > #formulario > .campoForm h2{
-        font-size: 25px;
+    main > .containerForm > #formulario > .campoForm h2,
+    main > .containerForm > #formulario > .converter > .campoForm h2{
+        font-size: 14px;
     }
         
     main > .containerForm > #formulario > .campoForm #valor,
-    main > .containerForm > #formulario > .campoForm > select,
+    main > .containerForm > #formulario > .converter > .campoForm > select,
     main > .containerForm > #formulario > .campoForm > .container-resultado{
         width: 90%;
-        height: 30px;
-        margin-top: 15px;
+        height: 20px;
+        margin: 5px auto;
     }
     
     main > .containerForm > #formulario > .campoForm > .container-resultado > #resultado{
@@ -42,45 +44,47 @@
     }
     
     main > .containerForm > #formulario > .campoformBotao #botaoForm{
-        width: 200px;
-        height:70px;
-        font-size: 32px;
-        margin-top: 20px;
+        width: 120px;
+        height: 40px;
+        font-size: 19px;
+        margin: 5px auto;
     }
 
 }
 
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-    
+
     main{
-        padding: 50px 0px;
+        height: 100vh;
+        padding: 10px 0px;
     }
 
     main > .containerForm{
         width: 80%;
-        margin: 20px 0px;
     }
     
-    main > h1{
-        font-size: 31px;
-    }
-    
-    main > .containerForm > #formulario > .campoForm{
-        width: 90%;
-        margin-top: 20px;
-    }
-    
-    main > .containerForm > #formulario > .campoForm h2{
+    main > .containerForm > h1{
         font-size: 25px;
+    }
+    
+    main > .containerForm > #formulario > .campoForm,
+    main > .containerForm > #formulario > .converter > .campoForm{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    main > .containerForm > #formulario > .campoForm h2,
+    main > .containerForm > #formulario > .converter > .campoForm h2{
+        font-size: 22px;
     }
         
     main > .containerForm > #formulario > .campoForm #valor,
-    main > .containerForm > #formulario > .campoForm > select,
+    main > .containerForm > #formulario > .converter > .campoForm > select,
     main > .containerForm > #formulario > .campoForm > .container-resultado{
         width: 90%;
         height: 30px;
-        margin-top: 15px;
+        margin: 10px auto;
     }
     
     main > .containerForm > #formulario > .campoForm > .container-resultado > #resultado{
@@ -89,9 +93,9 @@
     
     main > .containerForm > #formulario > .campoformBotao #botaoForm{
         width: 200px;
-        height:70px;
-        font-size: 32px;
-        margin-top: 20px;
+        height: 70px;
+        font-size: 25px;
+        margin: 10px auto;
     }
 }
 
@@ -104,25 +108,27 @@
         width: 85%;
     }
     
-    main > h1{
-        font-size: 55px;
+    main > .containerForm > h1{
+        font-size: 42px;
     }
     
-    main > .containerForm > #formulario > .campoForm{
+    main > .containerForm > #formulario > .campoForm,
+    main > .containerForm > #formulario > .converter > .campoForm{
         width: 90%;
-        margin-top: 50px;
+        margin: 29px auto;
     }
     
-    main > .containerForm > #formulario > .campoForm h2{
+    main > .containerForm > #formulario > .campoForm h2,
+    main > .containerForm > #formulario > .converter > .campoForm h2{
         font-size: 26px;
     }
     
     main > .containerForm > #formulario > .campoForm #valor,
-    main > .containerForm > #formulario > .campoForm > select,
-    main > .containerForm > #formulario > .campoForm > .container-resultado{
+    main > .containerForm > #formulario > .converter > .campoForm > select,
+    main > .containerForm > #formulario > .converter > .campoForm > .container-resultado{
         width: 90%;
         height: 35px;
-        margin-top: 20px;
+        margin: 10px auto;
     }
 
     
@@ -131,10 +137,10 @@
     }
     
     main > .containerForm > #formulario > .campoformBotao #botaoForm{
-        width: 250px;
-        height: 80px;
+        width: 200px;
+        height: 70px;
         font-size: 36px;
-        margin-top: 20px;
+        margin: 10px auto;
     }
 
 }
@@ -155,22 +161,24 @@
         width: 85%;
     }
     
-    main > h1{
-        font-size: 62px;
+    main > .containerForm > h1{
+        font-size: 50px;
     }
     
-    main > .containerForm > #formulario > .campoForm{
+    main > .containerForm > #formulario > .campoForm,
+    main > .containerForm > #formulario > .converter > .campoForm{
         width: 90%;
         margin-top: 50px;
     }
     
-    main > .containerForm > #formulario > .campoForm h2{
+    main > .containerForm > #formulario > .campoForm h2,
+    main > .containerForm > #formulario > .converter > .campoForm h2{
         font-size: 36px;
     }
     
     main > .containerForm > #formulario > .campoForm #valor,
-    main > .containerForm > #formulario > .campoForm > select,
-    main > .containerForm > #formulario > .campoForm > .container-resultado{
+    main > .containerForm > #formulario > .converter > .campoForm > select,
+    main > .containerForm > #formulario > .converter > .campoForm > .container-resultado{
         width: 90%;
         height: 45px;
         margin-top: 20px;
@@ -181,10 +189,10 @@
     }
     
     main > .containerForm > #formulario > .campoformBotao #botaoForm{
-        width: 300px;
-        height: 100px;
-        font-size: 45px;
-        margin-top: 20px;
+        width: 200px;
+        height: 70px;
+        font-size: 36px;
+        margin-top: 40px;
     }
 }
 
